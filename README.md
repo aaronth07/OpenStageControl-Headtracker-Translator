@@ -22,11 +22,17 @@ _Currently required only for the current script, future variations may have diff
 - Open Data OSC iOS app.
 - Enable "OSC" and set your computer's local IP address (type `ipconfig` in cmd).
 - Set any port you want (I used `8080`).
+
 Example:
+
 <img width="345" height="1098" alt="Data OSC example 1" src="https://github.com/user-attachments/assets/518f8094-b09e-4b61-b9e1-99b285851764" />
+
 - Scroll down and enable "Face Tracking", click on the icon to change the settings and disable everything but Face Tracking > Face > Rotation > x, y, z, w
+
 Example:
+
 <img width="345" height="1098" alt="Data OSC example 2" src="https://github.com/user-attachments/assets/d674df62-6b99-432e-8280-1935307caa35" />
+
 _Note:_ The iOS SDK takes care of all "calibration", sensitivity, and centering for the FaceID camera automatically, so you may leave the Data OSC app, pause/resume the output, or lose and reconnect tracking at will with any position, without worrying about recalibration. You may also keep your phone at any position or angle as well as very low light, as long as the dot matrix combo can recognize your face it will recalibrate automatically. You may even move the phone while your moving your head and still send accurate tracking data! 
 
 **Open Stage Control**
@@ -35,8 +41,11 @@ _Note:_ The iOS SDK takes care of all "calibration", sensitivity, and centering 
 - Set "send" to `localhost:3001` (or the IP of whichever computer you wish to send to).
   _Note: I think Virtuoso's default port is 3001, but correct me if i'm wrong. If you change this, the send port also needs to be configured in the script_
 - Set "custom-module" to the script you have downloaded.
+- 
 Example:
+
 <img width="1299" height="260" alt="image" src="https://github.com/user-attachments/assets/cca6ef1a-f96c-4392-bf05-6297a5a8b41f" />
+
 - Press the play button (top left corner)
 
 If the module is loaded correctly, you should see `INIT: module loaded` just above the "(INFO)" message in the console.
@@ -46,7 +55,9 @@ You may also set the application settings, such as minimize to tray or open on s
 If you are having issue with the app's output, you may also enable "debug" to view all messages that is being recieved on the port. If the app is sending data you will recieve a live feed in the console. It is recommended to disable this normally for performance purposes.
 
 In Virtuoso, change head tracking to "Auto" and make sure the port is 3001. Do not change the message format from "APL".
+
 Example:
+
 <img width="152" height="137" alt="image" src="https://github.com/user-attachments/assets/c4dd2d54-6255-4e26-8b4a-bf1f150b157f" />
 
 ## Limitations
