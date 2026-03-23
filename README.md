@@ -39,6 +39,7 @@ _Note:_ The iOS SDK takes care of all "calibration", sensitivity, and centering 
 - Open `open-stage-control.exe`
 - Set the "port" value to the same as you set above.
 - Set "send" to `localhost:3001` (or the IP of whichever computer you wish to send to).
+  
   _Note: I think Virtuoso's default port is 3001, but correct me if i'm wrong. If you change this, the send port also needs to be configured in the script_
 - Set "custom-module" to the script you have downloaded.
 - 
