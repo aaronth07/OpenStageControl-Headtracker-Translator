@@ -1,5 +1,5 @@
 # OpenStageControl-Headtracker-Translator
-Open Stage Control custom module scripts to translate incoming OSC messages into standard binaural headtracking scripts.
+Open Stage Control custom module scripts to translate incoming OSC messages into common binaural headtracking OSC formats.
 
 Currently, there is only one script, one to translate quat data from the [Data OSC](https://apps.apple.com/us/app/data-osc/id6447833736) iOS app into standard Virtuoso APL format. However, Open Stage Control can theoretically be used to fairly easily translate any OSC data into any other OSC data, including to and from different headtracker formats, headtracking apps, opentrack, etc. 
 
