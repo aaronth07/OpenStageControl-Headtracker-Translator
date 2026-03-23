@@ -42,7 +42,7 @@ _Note:_ The iOS SDK takes care of all "calibration", sensitivity, and centering 
   
   _Note: I think Virtuoso's default port is 3001, but correct me if i'm wrong. If you change this, the send port also needs to be configured in the script_
 - Set "custom-module" to the script you have downloaded.
-- 
+
 Example:
 
 <img width="1299" height="260" alt="image" src="https://github.com/user-attachments/assets/cca6ef1a-f96c-4392-bf05-6297a5a8b41f" />
