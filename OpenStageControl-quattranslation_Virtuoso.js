@@ -8,12 +8,12 @@ function sendQuat() {
         { type: "f", value: -q.y }       // yaw
     ];
     // console.log("SEND /Virtuoso/quat", out); // uncomment to debug
-    send("10.0.0.106", 3001, "/Virtuoso/quat", ...out);
+    send("localhost", 3001, "/Virtuoso/quat", ...out);
 }
 
 module.exports = {
     init() {
-        console.log("INIT: quaternion module loaded");
+        console.log("INIT: module loaded");
     },
 
     oscInFilter(data) {
@@ -36,6 +36,6 @@ module.exports = {
             sendQuat();
         }
 
-        return data; // allow normal processing
+        return data; 
     }
 };
