@@ -25,15 +25,15 @@ _Currently required only for the current script, future variations may have diff
 
 Example:
 
-<img width="345" height="1098" alt="Data OSC example 1" src="https://github.com/user-attachments/assets/518f8094-b09e-4b61-b9e1-99b285851764" />
+<img width="322" height="699" alt="Data OSC example 1" src="https://github.com/user-attachments/assets/518f8094-b09e-4b61-b9e1-99b285851764" />
 
 - Scroll down and enable "Face Tracking", click on the icon to change the settings and disable everything but Face Tracking > Face > Rotation > x, y, z, w
 
 Example:
 
-<img width="345" height="1098" alt="Data OSC example 2" src="https://github.com/user-attachments/assets/d674df62-6b99-432e-8280-1935307caa35" />
+<img width="322" height="699" alt="Data OSC example 2" src="https://github.com/user-attachments/assets/d674df62-6b99-432e-8280-1935307caa35" />
 
-_Note:_ The iOS SDK takes care of all "calibration", sensitivity, and centering for the FaceID camera automatically, so you may leave the Data OSC app, pause/resume the output, or lose and reconnect tracking at will with any position, without worrying about recalibration. You may also keep your phone at any position or angle as well as very low light, as long as the dot matrix combo can recognize your face it will recalibrate automatically. You may even move the phone while your moving your head and still send accurate tracking data! 
+_Note:_ The iOS SDK takes care of all "calibration", sensitivity, and centering for the FaceID camera automatically, so you may leave the Data OSC app, pause/resume the output, or lose and reconnect tracking at will with any position, without worrying about recalibration. You may also keep your phone at any position or angle as well as very low light, as long as the dot matrix combo can recognize your face it will recalibrate automatically. You may even move the phone while your moving your head and still send accurate tracking data! Note, that if you want to recenter, you need to exit and completely close the app in the app selector and reopen/connect.
 
 **Open Stage Control**
 - Open `open-stage-control.exe`
