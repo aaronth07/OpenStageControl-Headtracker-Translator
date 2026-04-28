@@ -76,4 +76,8 @@ Example:
 ## Modifications
 The script is very easily modified to any format you wish.
 
-The port `3001` can be changed to anything, as long as it matches the send port in the Open Stage Control GUI. The send address can be changed from `/Virtuoso/quat` to any other address. Other format conversions and calculations will require more in-depth changes and testing, as the current version of the script is personalized to the Data OSC app's quat output, with manual trial and error to determine the correct quat input to output conversion. 
+The port `3001` can be changed to anything, as long as it matches the send port in the Open Stage Control GUI. The send address can be changed from `/Virtuoso/quat` to any other address. 
+
+Other format conversions and calculations will require more in-depth changes and testing, as the current version of the script is personalized to the Data OSC app's quat output, with manual trial and error to determine the correct quat input to output conversion. 
+
+Because of the lack of documentation regarding Data OSC, combined with a separate message format for each individual message type, most other OSC headtracking programs should be easier to script a translation for. In Data OSC's case, because each message sent to a different message format address, the messages had to individually translated per address. If a program outputs OSC data in a single message (most do), the translation should be much easier to write.
